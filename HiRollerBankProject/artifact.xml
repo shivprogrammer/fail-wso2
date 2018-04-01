@@ -2,4 +2,7 @@
     <artifact name="HiRollerBankAccountWS" groupId="com.wso2.training.HiRollerBankProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/HiRollerBankAccountWS.xml</file>
     </artifact>
+    <artifact name="AccountProxy" groupId="com.wso2.training.HiRollerBankProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/AccountProxy.xml</file>
+    </artifact>
 </artifacts>
