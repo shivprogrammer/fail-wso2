@@ -177,3 +177,12 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/proxy-services
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2018-04-01 00:28:57.345
 !MESSAGE Resource '/proxy-services' does not exist.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-04-01 00:31:56.805
+!MESSAGE cacheFile=file:/C:/WSO2/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-04-01 00:31:56.833
+!MESSAGE cacheFile=file:/C:/WSO2/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-04-01 00:32:51.644
+!MESSAGE cacheFile=file:/C:/WSO2/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
