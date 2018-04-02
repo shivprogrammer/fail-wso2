@@ -6,18 +6,6 @@
             <log description="Log" level="custom" separator=",">
                 <property name="Status" value="Account Balance Request"/>
             </log>
-            <switch source="fn:count(//*[local-name()='checkBalance'])">
-                <case regex="1.0">
-                    <log description="Log" level="custom" separator=",">
-                        <property name="STATUS" value="CHK Balance Request"/>
-                    </log>
-                </case>
-                <default>
-                    <log description="Log" level="custom" separator=",">
-                        <property name="STATUS" value="SAV Balance Request"/>
-                    </log>
-                </default>
-            </switch>
         </inSequence>
         <outSequence>
             <send/>
