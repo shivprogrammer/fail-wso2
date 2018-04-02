@@ -6,8 +6,8 @@
             <log description="Log" level="custom" separator=",">
                 <property name="Status" value="Account Balance Request"/>
             </log>
-            <switch source="fn:count(//*[local-name()='checkBalance'])">
-                <case regex="1.0"/>
+            <switch source="/default/xpath">
+                <case regex=".*+"/>
                 <default/>
             </switch>
         </inSequence>
