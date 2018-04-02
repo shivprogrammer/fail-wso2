@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="AccountProxy" startOnLoad="true" transports="https http" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <endpoint key="HiRollerBankAccountWS"/>
+        <inSequence>
+            <log description="Log" level="custom" separator=",">
+                <property name="Status" value="Account Balance Request"/>
+            </log>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

@@ -6,6 +6,10 @@
             <log description="Log" level="custom" separator=",">
                 <property name="Status" value="Account Balance Request"/>
             </log>
+            <switch source="/default/xpath">
+                <case regex=".*+"/>
+                <default/>
+            </switch>
         </inSequence>
         <outSequence>
             <send/>
