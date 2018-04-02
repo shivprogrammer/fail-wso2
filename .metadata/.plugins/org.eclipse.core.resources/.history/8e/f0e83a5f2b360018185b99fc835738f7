@@ -12,11 +12,7 @@
                         <property name="STATUS" value="CHK Balance Request"/>
                     </log>
                 </case>
-                <default>
-                    <log description="Log" level="custom" separator=",">
-                        <property name="STATUS" value="SAV Balance Request"/>
-                    </log>
-                </default>
+                <default/>
             </switch>
         </inSequence>
         <outSequence>
